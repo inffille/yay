@@ -1,15 +1,8 @@
-//============================================================================
-// Name        : common.cpp
-// Author      : Kseniya
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 #include <iostream>
+
 using namespace std;
 
-int main() {
-	cout << "Yay!" << endl; // prints Yay!
+int main(int argc, char *argv[]) {
+
 	return 0;
 }
