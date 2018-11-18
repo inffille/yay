@@ -1,1 +1,4 @@
 yay-src/.metadata/
+yay-src/common/.cproject
+yay-build/
+!yay-build/Makefile
