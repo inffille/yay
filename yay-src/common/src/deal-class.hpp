@@ -11,13 +11,15 @@
 
 class Deal{
 //	struct tm date_of_creation;
-	struct tm set_time(std::string& format_string);
+	struct tm set_time(const std::string& format_string);
 public:
 	std::string deal_name;
 	std::string description;
 	struct tm deadline;
 
-	Deal(std::string& name, std::string& descr, std::string& data_deadline);
+	Deal(const std::string& name, const std::string& descr,
+			const std::string& data_deadline);
+	void print_deal_info();
 	~Deal();
 };
 
